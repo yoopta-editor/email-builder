@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "CommonJS",
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "@yoopta/*": ["packages/*/src"]
+    }
+  }
+}
