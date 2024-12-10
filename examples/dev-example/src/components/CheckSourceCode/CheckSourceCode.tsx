@@ -29,7 +29,7 @@ const CheckSourceCode = ({ example, withBackButton = false, directLink }: Props)
       <div className="flex">
         <button
           onClick={() => {
-            window.open(`https://github.com/Darginec05/Yoopta-Editor`, '_blank');
+            window.open(`https://github.com/yoopta-editor/Email-Builder`, '_blank');
           }}
           className="relative mx-2 px-3 py-1 text-[14px] rounded text-white flex items-center bg-[#000]"
         >
@@ -40,7 +40,7 @@ const CheckSourceCode = ({ example, withBackButton = false, directLink }: Props)
           onClick={() =>
             window.open(
               directLink ||
-                `https://github.com/Darginec05/Yoopta-Editor/blob/master/web/next-example/src/components/examples/${example}/index.tsx`,
+                `https://github.com/yoopta-editor/Email-Builder/blob/main/examples/dev-example/src/app/page.tsx`,
               '_blank',
             )
           }
