@@ -39,6 +39,7 @@ function getPlugins({ tailwindConfig }) {
       plugins: [
         postcssNesting(),
         tailwindcss({
+          prefix: "yoopta-",
           theme: {
             extend: {},
           },
